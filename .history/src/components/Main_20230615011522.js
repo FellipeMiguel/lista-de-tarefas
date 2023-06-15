@@ -86,12 +86,6 @@ export default class Main extends Component {
           handleChange={this.handleChange}
           newTask={newTask}
         />
-
-        <Tasks
-          handleEdit={this.handleEdit}
-          handleDelete={this.handleDelete}
-          tasks={tasks}
-        />
       </div>
     )
   }

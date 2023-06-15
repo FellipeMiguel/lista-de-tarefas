@@ -2,7 +2,6 @@ import React, { Component } from 'react'
 
 import './Main.css'
 import Form from './Form'
-import Tasks from './Tasks'
 
 export default class Main extends Component {
   state = {
@@ -85,12 +84,6 @@ export default class Main extends Component {
           handleSubmit={this.handleSubmit}
           handleChange={this.handleChange}
           newTask={newTask}
-        />
-
-        <Tasks
-          handleEdit={this.handleEdit}
-          handleDelete={this.handleDelete}
-          tasks={tasks}
         />
       </div>
     )
